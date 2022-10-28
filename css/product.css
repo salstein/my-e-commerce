@@ -1,7 +1,7 @@
 .product-form {
     display:flex;
     flex-direction: column;
-    width: 20rem;
+    width: 15rem;
     max-width: 100%;
     margin: auto;
 }
