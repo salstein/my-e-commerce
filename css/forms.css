@@ -13,8 +13,8 @@
     border: 1px solid #a1a1a1;
     font: inherit;
     border-radius: 2px;
+    background-color: #2ebfb0;
 }
-
 .form-control input:focus {
-    outline-color: #00695c;
+    outline-color: ;
 }
