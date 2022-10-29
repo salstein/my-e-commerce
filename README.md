@@ -13,13 +13,13 @@ git checkout -b branch-name
 ```
 
 * Make your changes (choose from any task below)
-* Commit and push
+* Commit and push it on git
 
 ```markdown
 git add .
-git commit -m 'Commit Message'
-git push origin branch-name
-```
+git commit -m 'Commit message' 
+
+
 
 * Create a new pull request from your forked repository (Click the `New Pull Request` button located at the top of your repo)
 * Wait for your PR review and merge approval!
