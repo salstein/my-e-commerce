@@ -13,7 +13,7 @@ git checkout -b branch-name
 ```
 
 * Make your changes (choose from any task below)
-* Commit and push
+* Commit and push it
 
 ```markdown
 git add .
