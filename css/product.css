@@ -1,7 +1,7 @@
 .product-form {
     display:flex;
     flex-direction: column;
-    width: 20rem;
+    width: 15rem;
     max-width: 100%;
     margin: auto;
 }
@@ -20,7 +20,7 @@
 
 .product__price {
     text-align: center;
-    color: #4d4d4d;
+    color: #4d5d4d;
     margin-bottom: 0.5rem;
 }
 
