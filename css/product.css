@@ -15,12 +15,12 @@
     font-size: 1.5rem;
     font-weight: 700;
     color: black;
+    color: #082e2a;
     text-align: center;
 }
 
 .product__price {
     text-align: center;
-    color: #4d5d4d;
     margin-bottom: 0.5rem;
 }
 
