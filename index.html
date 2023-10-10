@@ -6,8 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Shop</title>
-    <link rel="stylesheet" href="/css/main.css">
-    <link rel="stylesheet" href="/css/product.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&family=Red+Hat+Display:wght@500;700;900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./src/css/main.css">
+    <link rel="stylesheet" href="./src/css/forms.css">
+    <link rel="stylesheet" href="./src/css/product.css">
 </head>
 
 <body>
@@ -21,34 +25,23 @@
     </header>
 
     <main>
-        <h1>My Products</h1>
-
-        <div>
-            <h1>List of all products..<span id="typed"></span></h1>
-          </div>
-        <section class="banner">
-            <h1 class="fade-in">THE GREAT BOOK</h1>
-            <p class="fade-in delayed">BEYOUND IMAGINATION</p>
-          </section>
-
-        <div class="grid">
-            <article class="card product-item">
-                <header class="card__header">
-                    <h1 class="product__title">Great Book</h1>
-                </header>
-                <div class="card__image">
-                    <img src="https://cdn.pixabay.com/photo/2016/03/31/20/51/book-1296045_960_720.png" alt="A Book">
-                </div>
-                <div class="card__content">
-                    <h2 class="product__price">$19.99</h2>
-                    <p class="product__description">A well documented book with interesting imaginations!</p>
-                      <p class="product__description">Yeah it did and absolutely certitude!</p>
-                </div>
-                <div class="card__actions">
-                    <button class="btn">Add to Cart</button>
-                </div>
-            </article>
+        <div class="texts">
+            <h1>My Products</h1>
+            <h2>List of all products.
         </div>
+        <span id="typed"></span></h2>
+        <section>
+            <div>
+                    <img src="./src/images/necklace.jpg" alt="A beautiful necklace" height="230px">
+                    <button>Add To Cart</button>
+            </div>
+
+            <div>
+                    <img src="./src/images/beautiful blue dress.jpg" alt="A beautiful gown">
+                    <button>Add To Cart</button>
+            </div>
+        </section>
+
     </main>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.8/typed.min.js"></script>
     <script src="script.js"></script>
