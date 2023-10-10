@@ -1,92 +1,81 @@
-# Contributing
+# Contributing to BookStore
 
-When contributing to this repository, please first discuss the change you wish to make via issue,
-email, or any other method with the owners of this repository before making a change. 
+If you're reading this, you're awesome! Thank you for helping us make this project great and being a part of this community. Here are a few guidelines that will help you along the way.
 
-Please note we have a code of conduct, please follow it in all your interactions with the project.
+## Summary
 
-## Pull Request Process
+- [Your first Pull Request](#your-first-pull-request)
+- [Sending a Pull Request](#sending-a-pull-request)
+  - [How to increase the chance of being accepted?](#how-to-increase-the-chance-of-being-accepted)
+- [License](#license)
 
-1. Ensure any install or build dependencies are removed before the end of the layer when doing a 
-   build.
-2. Update the README.md with details of changes to the interface, this includes new environment 
-   variables, exposed ports, useful file locations and container parameters.
-3. Increase the version numbers in any examples files and the README.md to the new version that this
-   Pull Request would represent. The versioning scheme we use is [SemVer](http://semver.org/).
-4. You may merge the Pull Request in once you have the sign-off of one developers, or if you 
-   do not have permission to do that, you may request the second reviewer to merge it for you.
 
-## Code of Conduct
+## Your first Pull Request
 
-### Our Pledge
+Working on your first Pull Request? You can learn how from this free video series:
 
-In the interest of fostering an open and welcoming environment, we as
-contributors and maintainers pledge to making participation in our project and
-our community a harassment-free experience for everyone, regardless of age, body
-size, disability, ethnicity, gender identity and expression, level of experience,
-nationality, personal appearance, race, religion, or sexual identity and
-orientation.
+[How to Contribute to an Open Source Project on GitHub](https://egghead.io/courses/how-to-contribute-to-an-open-source-project-on-github)
 
-### Our Standards
+To help you get your feet wet and get you familiar with our contribution process, we have a list of [good first issues](https://github.com/salstein/my-e-commerce/issues?q=is:open+is:issue+label:"good+first+issue") that contain changes that have a relatively limited scope. This label means that there is already a working solution to the issue in the discussion section. Therefore, it is a great place to get started.
 
-Examples of behavior that contributes to creating a positive environment
-include:
+We also have a list of [good to take issues](https://github.com/salstein/my-e-commerce/issues?q=is:open+is:issue+label:"good+to+take"). This label is set when there has already been some discussion about the solution, and it is clear in which direction to go. These issues are good for developers that want to reduce the chance of going down a rabbit hole.
 
-* Using welcoming and inclusive language
-* Being respectful of differing viewpoints and experiences
-* Gracefully accepting constructive criticism
-* Focusing on what is best for the community
-* Showing empathy towards other community members
+You can also work on any other issue you choose to.
+The "good first" and "good to take" issues are just issues where we have a clear picture about scope and timeline.
+Pull requests working on other issues or completely new problems may take a bit longer to review when they don't fit into our current development cycle.
 
-Examples of unacceptable behavior by participants include:
+If you decide to fix an issue, please make sure to check the comment thread in case somebody is already working on a fix. If nobody is working on it at the moment, please leave a comment stating that you have started to work on it, so other people don't accidentally duplicate your effort.
 
-* The use of sexualized language or imagery and unwelcome sexual attention or
-advances
-* Trolling, insulting/derogatory comments, and personal or political attacks
-* Public or private harassment
-* Publishing others' private information, such as a physical or electronic
-  address, without explicit permission
-* Other conduct which could reasonably be considered inappropriate in a
-  professional setting
+If somebody claims an issue but doesn't follow up for more than a week, it's fine to take it over, but you should still leave a comment.
+If there has been no activity on the issue for 7 to 14 days, it is safe to assume that nobody is working on it.
 
-### Our Responsibilities
+## Sending a Pull Request
 
-Project maintainers are responsible for clarifying the standards of acceptable
-behavior and are expected to take appropriate and fair corrective action in
-response to any instances of unacceptable behavior.
+This E-Commerce project is a community project, so Pull Requests are always welcome, but, before working on a large change, it is best to open an issue first to discuss it with the maintainers.
 
-Project maintainers have the right and responsibility to remove, edit, or
-reject comments, commits, code, wiki edits, issues, and other contributions
-that are not aligned to this Code of Conduct, or to ban temporarily or
-permanently any contributor for other behaviors that they deem inappropriate,
-threatening, offensive, or harmful.
+When in doubt, keep your Pull Requests small. To give a Pull Request the best chance of getting accepted, don't bundle more than one feature or bug fix per Pull Request. It's often best to create two smaller Pull Requests than one big one.
 
-### Scope
+1. Fork the repository.
 
-This Code of Conduct applies both within project spaces and in public spaces
-when an individual is representing the project or its community. Examples of
-representing a project or community include using an official project e-mail
-address, posting via an official social media account, or acting as an appointed
-representative at an online or offline event. Representation of a project may be
-further defined and clarified by project maintainers.
+2. Clone the fork to your local machine and add upstream remote:
 
-### Enforcement
+```bash
+git clone https://github.com/<your username>/my-e-commerce.git
+cd my-e-commerce
+git remote add upstream https://github.com/salstein/my-e-commerce.git
+```
 
-Instances of abusive, harassing, or otherwise unacceptable behavior may be
-reported by contacting the project team at [INSERT EMAIL ADDRESS]. All
-complaints will be reviewed and investigated and will result in a response that
-is deemed necessary and appropriate to the circumstances. The project team is
-obligated to maintain confidentiality with regard to the reporter of an incident.
-Further details of specific enforcement policies may be posted separately.
+<!-- #default-branch-switch -->
 
-Project maintainers who do not follow or enforce the Code of Conduct in good
-faith may face temporary or permanent repercussions as determined by other
-members of the project's leadership.
+3. Synchronize your local `main` branch with the upstream one:
 
-### Attribution
+```bash
+git checkout main
+git pull upstream main
+```
 
-This Code of Conduct is adapted from the [Contributor Covenant][homepage], version 1.4,
-available at [http://contributor-covenant.org/version/1/4][version]
+4. Create a new topic branch:
 
-[homepage]: http://contributor-covenant.org
-[version]: http://contributor-covenant.org/version/1/4/
+```bash
+git checkout -b my-topic-branch
+```
+
+5. Make changes, commit and push to your fork:
+
+```bash
+git push -u origin HEAD
+```
+
+6. Go to [the repository](https://github.com/salstein/my-e-commerce) and make a Pull Request.
+
+The core team is monitoring for Pull Requests. We will review your Pull Request and either merge it, request changes to it, or close it with an explanation.
+
+### How to increase the chance of being accepted?
+
+Continuous Integration (CI) runs a series of checks automatically when a Pull Request is opened. If you're
+unsure if your changes will pass, you can always open a Pull Request, and the GitHub UI will display a summary
+of the results. Make sure the branch is not behind its target branch.
+
+## License
+
+By contributing your code to the [BookStore](https://github.com/salstein/my-e-commerce) GitHub repository, you agree to license your contribution under the [MIT license](/LICENSE).
