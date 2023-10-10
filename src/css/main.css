@@ -1,0 +1,108 @@
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Fraunces;
+}
+
+main {
+  padding: 1rem;
+  margin: auto;
+}
+
+.main-header {
+  display: flex;
+  padding: 20px 0;
+  background-color: #124a8b;
+  max-width: 100%;
+}
+
+.main-header__nav {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.main-header__item-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.main-header__item {
+  margin: 0 13rem;
+  padding: 0;
+}
+
+.main-header__item a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.main-header__item a:hover,
+.main-header__item a:active,
+.main-header__item a.active {
+  color: #34f422;
+}
+
+.texts {
+  text-align: center;
+}
+section {
+  margin-top: 25px;
+}
+
+section,
+section div {
+  display: flex;
+  gap: 30px;
+}
+
+section div,
+article {
+  flex-direction: column;
+}
+button {
+  margin-top: 6px;
+  width: 150px;
+  color: rgb(39, 33, 161);
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+  background-color: #34f422;
+  padding: 12px;
+  border-radius: 20px;
+}
+
+button:hover,
+button:active {
+  cursor: pointer;
+  background-color: #ea6d6d;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+.fade-in {
+  opacity: 0;
+  /* make things invisible upon start */
+  animation: fadeIn ease-in 1;
+  animation-fill-mode: forwards;
+  animation-duration: 1.4s;
+}
+
+.fade-in.delayed {
+  animation-delay: 1.4s;
+}

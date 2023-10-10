@@ -10,7 +10,11 @@
     width: 20rem;
     max-width: 95%;
 }
-
+span {
+    color: #ea6d6d;
+    font-weight: 900;
+    font-size: 2.2rem;
+}
 .product__title {
     font-size: 1.5rem;
     font-weight: 700;
