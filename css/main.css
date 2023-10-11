@@ -76,16 +76,18 @@ div h1 {
   align-items: stretch;
 }
 
-.card {
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
-}
 
 article {
   background-image: linear-gradient(rgb(235, 108, 108), rgb(73, 192, 73),rgb(128, 33, 195), rgb(242, 242, 72), rgb(235, 114, 114), rgb(73, 192, 73))
 }
-.card__header,
-.card__content {
+.card__header {
   padding: 1rem;
+}
+
+.card__content{
+  border-top: 1px solid #fff;
+  color: #000000af;
+  padding: 0.2rem 1rem;
 }
 
 .card__header h1,
@@ -96,7 +98,9 @@ article {
 }
 
 .card__image {
-  width: 100%;
+  width: 50%;
+  display: inline-block;
+  margin: 0 auto;
 }
 
 .card__image img {
@@ -109,12 +113,16 @@ article {
 }
 
 .add-item {
-  margin: 12px;
+  margin: 5px 12px;
   padding: 10px 12px;
   border: none;
   border-radius: 18px;
-  color: rgb(128, 33, 195);
-  background-color: brown;
+  color: black;
+  background-color: #fff;
+}
+.add-item:hover{
+  background-color: #082e2a ;
+  color: #fff;
 }
 
 
@@ -154,4 +162,9 @@ h4 {
 .fade-in.delayed {
   animation-delay: 1.4s;
   color: rgb(218, 80, 80);
+}
+@media (min-width:1024px) {
+  .card__content{
+    padding: 1rem;
+  }
 }
