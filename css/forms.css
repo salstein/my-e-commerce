@@ -18,3 +18,8 @@
 .form-control input:focus {
     outline-color:darkmagenta ;
 }
+
+.navbar-brand:hover {
+    color: brown;
+}
+
