@@ -6,9 +6,12 @@
 
 body {
   font-family: Mooli, sans-serif;
+  user-select: none;
 
 }
-
+a:hover {
+  color: #ffeb3b;
+}
 main {
   padding: 1rem;
   margin: auto;
@@ -28,11 +31,9 @@ div h1 {
   background-color: #00695c;
   padding: 0 1.5rem;
 }
-
 .bg-navbar {
   background-color: #00695c;
 }
-
 .light-bold {
   font-weight: 500 !important;
 }
@@ -113,7 +114,7 @@ article {
 .btn {
   font: inherit;
   font-weight: bolder;
-  border:2px  solid rgb(54, 17, 81);
+  border:2px solid rgb(54, 17, 81);
   background-color: color-mix(in srgb, rgb(230, 138, 138) 75%, yellow 25%);
   outline: none;
   color: #00695c;
@@ -125,8 +126,8 @@ article {
 .btn:hover,
 .btn:active {
   background-color: #63dd5a;
-  border: none;
   color: #fff;
+  cursor: pointer;
 }
 
 .banner {
