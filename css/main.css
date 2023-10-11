@@ -23,10 +23,13 @@ main h1 {
   text-align: center;
   color: #082e2a;
   margin-bottom: 12px;
+  font-family: 'Young Serif', serif;
 }
 div h1 {
-  color: brown;
+  color: rgb(148, 13, 13);
 }
+
+
 .main-header {
   width: 100%;
   height: 3.7rem;
@@ -39,6 +42,8 @@ div h1 {
 .light-bold {
   font-weight: 500 !important;
 }
+
+
 
 .main-header__nav {
   height: 100%;
@@ -78,7 +83,11 @@ div h1 {
 
 
 article {
-  background-image: linear-gradient(rgb(235, 108, 108), rgb(73, 192, 73),rgb(128, 33, 195), rgb(242, 242, 72), rgb(235, 114, 114), rgb(73, 192, 73))
+  background-image: linear-gradient(rgb(235, 108, 108), rgb(73, 192, 73),rgb(128, 33, 195), rgb(242, 242, 72), rgb(235, 114, 114), rgb(73, 192, 73));
+  transition: box-shadow 0.2s;
+}
+article:hover{
+  box-shadow: 0px 0px 40px rgb(0, 0, 0);
 }
 .card__header {
   padding: 1rem;
@@ -117,14 +126,19 @@ article {
   padding: 10px 12px;
   border: none;
   border-radius: 18px;
-  color: black;
-  background-color: #fff;
-}
-.add-item:hover{
-  background-color: #082e2a ;
-  color: #fff;
+  color: rgb(5, 241, 16);
+  background-color: rgb(176, 32, 32);
+  font-weight: 500;
+  transition: box-shadow 0.2s;
+
 }
 
+.add-item:hover{
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 1);
+}
+.add-item:active{
+  padding: 8px 10px;
+}
 
 .banner {
   display: flex;
@@ -161,10 +175,13 @@ h4 {
 
 .fade-in.delayed {
   animation-delay: 1.4s;
-  color: rgb(218, 80, 80);
+
+  color: rgb(190, 63, 63);
+
 }
 @media (min-width:1024px) {
   .card__content{
     padding: 1rem;
   }
+
 }
