@@ -5,7 +5,7 @@
 }
 
 body {
-  font-family: Mooli, sans-serif;
+  font-family: 'Fraunces', serif;
   user-select: none;
 
 }
@@ -13,6 +13,8 @@ a:hover {
   color: #ffeb3b;
 }
 main {
+  background-image: linear-gradient(to right, rgb(235, 108, 108), rgb(73, 192, 73));
+  font-family: 'Fraunces', serif;
   padding: 1rem;
   margin: auto;
 }
@@ -79,7 +81,7 @@ div h1 {
 }
 
 article {
-  background-image: linear-gradient(rgb(235, 108, 108), rgb(73, 192, 73), yellow, rgb(128, 33, 195), rgb(224, 55, 55))
+  background-image: linear-gradient(rgb(235, 108, 108), rgb(73, 192, 73),rgb(128, 33, 195), rgb(242, 242, 72), rgb(235, 114, 114), rgb(73, 192, 73))
 }
 .card__header,
 .card__content {
@@ -106,29 +108,15 @@ article {
   text-align: center;
 }
 
-.card__actions button,
-.card__actions a {
-  margin: 0 0.25rem;
+.add-item {
+  margin: 12px;
+  padding: 10px 12px;
+  border: none;
+  border-radius: 18px;
+  color: rgb(128, 33, 195);
+  background-color: brown;
 }
 
-.btn {
-  font: inherit;
-  font-weight: bolder;
-  border:2px solid rgb(54, 17, 81);
-  background-color: color-mix(in srgb, rgb(230, 138, 138) 75%, yellow 25%);
-  outline: none;
-  color: #00695c;
-  border-radius: 5px;
-  cursor: pointer;
-  padding: 8px 15px;
-}
-
-.btn:hover,
-.btn:active {
-  background-color: #63dd5a;
-  color: #fff;
-  cursor: pointer;
-}
 
 .banner {
   display: flex;
