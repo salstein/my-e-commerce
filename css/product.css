@@ -1,0 +1,38 @@
+.product-form {
+    display:flex;
+    flex-direction: column;
+    width: 15rem;
+    max-width: 100%;
+    margin: auto;
+}
+
+article.product-item {
+    width: 20rem;
+    max-width: 95%;
+    height: 80vh;
+}
+article.product-item:hover{
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+}
+article.product-item:hover h2.product__price{
+    color: red;
+}
+article.product-item:hover .card__content{
+    color: #000;
+}
+.product__title {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: black;
+    color: #082e2a;
+    text-align: center;
+}
+
+.product__price {
+    text-align: center;
+    margin-bottom: 0.5rem;
+}
+
+.product__description {
+    text-align: center;
+}
