@@ -40,6 +40,11 @@ nav button{
   margin-right: 32px;
 
 }
+/* header style */
+header{
+  min-height: 100dvh;
+  background-color: #fff;
+}
 nav button:hover{
   
   background-color: transparent;
