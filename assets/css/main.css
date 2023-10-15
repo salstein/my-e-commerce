@@ -12,8 +12,57 @@ body {
 a:hover {
   color: #ffeb3b;
 }
+
+/* header style */
+header {
+  min-height: 100dvh;
+  /* background-color: #fff; */
+  background-image: linear-gradient(to bottom, #00695d65, #00695d65), url('../images/library-bg.jpg');
+  object-fit: cover;
+  background-size: cover;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+}
+
+.header_body{
+  flex: 1;
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+}
+
+.header_body>article{
+  max-width: 500px;
+}
+
+.header_body>article>h1{
+  font-size: 3rem;
+}
+
+.header_body>article>p {
+  font-size: 1rem;
+  line-height: 1.1rem;
+  margin-bottom: 20px;
+}
+
+.header_body>article>button{
+  border: 2px solid #fff;
+  color: #fff;
+  background: transparent;
+  padding: 8px;
+  border-radius: 5px;
+  text-transform: capitalize;
+}
+
+.header_body>article>button:hover{
+  background: #fff;
+  color: #00695c;
+  cursor: pointer;
+}
+
 main {
-  background-image: linear-gradient(to right, rgb(235, 108, 108), rgb(73, 192, 73));
+  /* background-image: linear-gradient(to right, rgb(235, 108, 108), rgb(73, 192, 73)); */
   font-family: 'Fraunces', serif;
   padding: 1rem;
   margin: auto;
@@ -83,11 +132,11 @@ div h1 {
 
 
 article {
-  background-image: linear-gradient(rgb(235, 108, 108), rgb(73, 192, 73),rgb(128, 33, 195), rgb(242, 242, 72), rgb(235, 114, 114), rgb(73, 192, 73));
+  /* background-image: linear-gradient(rgb(235, 108, 108), rgb(73, 192, 73),rgb(128, 33, 195), rgb(242, 242, 72), rgb(235, 114, 114), rgb(73, 192, 73)); */
   transition: box-shadow 0.2s;
 }
 article:hover{
-  box-shadow: 0px 0px 40px rgb(0, 0, 0);
+  /* box-shadow: 0px 0px 40px rgb(0, 0, 0); */
 }
 .card__header {
   padding: 1rem;
@@ -184,4 +233,17 @@ h4 {
     padding: 1rem;
   }
 
+}
+
+/* responsivess */
+@media screen and (min-width: 320px){
+  .header_body {
+    padding: 40px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .header_body{
+    padding: 80px;
+  }
 }
