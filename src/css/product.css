@@ -1,0 +1,84 @@
+main h1 {
+  text-align: center;
+  color: #082e2a;
+  margin-bottom: 12px;
+}
+div h1 {
+  color: brown;
+}
+
+.light-bold {
+  font-weight: 500 !important;
+}
+
+.main-header__nav {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.products-containers{
+  display: flex;
+}
+
+.card {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+}
+
+article {
+  background-color: cornflowerblue;
+}
+.card__header,
+.card__content {
+  padding: 1rem;
+}
+
+.card__image img {
+  width: 70%;
+}
+
+.card__actions {
+  padding: 1rem;
+  text-align: center;
+}
+
+.add-item {
+  margin: 12px;
+  padding: 10px 12px;
+  border: none;
+  border-radius: 18px;
+  color: rgb(128, 33, 195);
+  background-color: brown;
+}
+
+
+h4 {
+  font-size: 5rem;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+.fade-in {
+  opacity: 0;
+  /* make things invisible upon start */
+  animation: fadeIn ease-in 1;
+  color: #082e2a;
+  animation-fill-mode: forwards;
+  animation-duration: 1.4s;
+}
+
+.fade-in.delayed {
+  animation-delay: 1.4s;
+  color: rgb(218, 80, 80);
+}

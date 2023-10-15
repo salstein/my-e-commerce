@@ -1,4 +1,25 @@
-.product-form {
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  -webkit-tap-highlight-color: transparent 
+}
+
+body {
+  font-family: 'Fraunces', serif;
+  user-select: none;
+
+}
+main {
+  background-image: linear-gradient(to right, rgb(235, 108, 108), rgb(73, 192, 73));
+  font-family: 'Fraunces', serif;
+  padding: 1rem;
+  margin: auto;
+}
+
+/* .product-form {
     display:flex;
     flex-direction: column;
     width: 15rem;
@@ -26,4 +47,4 @@
 
 .product__description {
     text-align: center;
-}
+} */
