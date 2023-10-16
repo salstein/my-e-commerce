@@ -1,0 +1,11 @@
+{
+  "name": "my-e-commerce",
+  "version": "1.0.0",
+  "description": "* Fork this repository (Click the fork button in the top right of this page, click your Profile Image)\r * Clone your fork down to your local machine",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
