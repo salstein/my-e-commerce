@@ -10,7 +10,7 @@
 body {
     background-image: linear-gradient(to right, rgb(235, 108, 108), rgb(73, 192, 73));
     font-family: 'Fraunces', serif;
-    padding: 25px;
+    padding: 35px;
     user-select: none;
 
 }
@@ -20,32 +20,3 @@ main {
     margin: auto;
 }
 
-/* .product-form {
-    display:flex;
-    flex-direction: column;
-    width: 15rem;
-    max-width: 100%;
-    margin: auto;
-}
-
-.product-item {
-    width: 20rem;
-    max-width: 95%;
-}
-
-.product__title {
-    font-size: 1.5rem;
-    font-weight: 700;
-    color: black;
-    color: #082e2a;
-    text-align: center;
-}
-
-.product__price {
-    text-align: center;
-    margin-bottom: 0.5rem;
-}
-
-.product__description {
-    text-align: center;
-} */
