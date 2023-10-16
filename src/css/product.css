@@ -20,42 +20,49 @@ div h1 {
 
 .first-product,
 .second-product {
-  border: 2px solid green;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+  border: none;
   flex-basis: 50%;
+  padding: 12px;
 }
 .banner h1 {
   margin-bottom: 6px;
 }
+.product__title {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.card__header h4 {
+  font-style: italic;
+  color: rgb(247, 69, 69);
+}
 .card__image img {
   max-height: 200px;
-  /* width: 70%; */
 }
 .card__image {
   margin-bottom: 10px;
-  padding: 0;
 }
 .card__actions {
   padding: 1rem;
   text-align: center;
 }
-
+.card__content p {
+  font-size: 18px;
+}
 .add-item {
   margin: 12px;
   padding: 10px 12px;
   border: none;
   border-radius: 18px;
-  color: rgb(128, 33, 195);
-  background-color: brown;
+  color: red;
+  background-color: rgb(89, 189, 96);
+  width: 150px;
 }
-
-
-h4 {
-  font-size: 5rem;
-  font-weight: 300;
-  text-transform: uppercase;
+.add-item:hover,
+.add-item:active {
+  opacity: 0.6;
+  color: #ffffff;
 }
-
-
 @keyframes fadeIn {
   from {
     opacity: 0;
@@ -77,5 +84,5 @@ h4 {
 
 .fade-in.delayed {
   animation-delay: 1.4s;
-  color: rgb(218, 80, 80);
+  color: #082e2a;
 }
