@@ -24,11 +24,27 @@
 } */
 
 header {
+    display: flex;
+    justify-content: space-between;
     background: #f13f31;
-    padding: 8px 0px;
+    padding: 8px 10px;
+    margin-bottom: 20px;
+    border-radius: 6px;
     border-bottom: 1px solid #3131315e;
 }
+.headquote {
+    font-weight: 500;
+    font-style: 2rem;
+    cursor: cell;
+}
+header a {
+    font-size: 12px;
+    color: rgb(73, 192, 73);
+}
+header a:hover {
+    font-size: 15px;
 
+}
 .head1p1 {
     font-size: 20px;
     color: #ffffff;
@@ -38,4 +54,10 @@ header {
     font-size: 12px;
     color: #ffffff;
     text-decoration: none;
+}
+
+@media (max-width:600px) {
+    header {
+        flex-direction: column;
+    }
 }

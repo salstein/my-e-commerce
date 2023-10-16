@@ -3,6 +3,7 @@ main h1 {
   color: #082e2a;
   margin-bottom: 12px;
 }
+
 div h1 {
   color: brown;
 }
@@ -11,32 +12,28 @@ div h1 {
   font-weight: 500 !important;
 }
 
-.main-header__nav {
-  height: 100%;
+.products-containers {
   display: flex;
-  align-items: center;
+  gap: 20px;
+  justify-content: space-between;
 }
 
-.products-containers{
-  display: flex;
+.first-product,
+.second-product {
+  border: 2px solid green;
+  flex-basis: 50%;
 }
-
-.card {
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+.banner h1 {
+  margin-bottom: 6px;
 }
-
-article {
-  background-color: cornflowerblue;
-}
-.card__header,
-.card__content {
-  padding: 1rem;
-}
-
 .card__image img {
-  width: 70%;
+  max-height: 200px;
+  /* width: 70%; */
 }
-
+.card__image {
+  margin-bottom: 10px;
+  padding: 0;
+}
 .card__actions {
   padding: 1rem;
   text-align: center;
@@ -70,7 +67,7 @@ h4 {
 }
 
 .fade-in {
-  opacity: 0;
+  opacity: 0.2;
   /* make things invisible upon start */
   animation: fadeIn ease-in 1;
   color: #082e2a;
