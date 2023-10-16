@@ -1,40 +1,7 @@
-let books = document.getElementById("books");
 let reviews = document.getElementById("reviews");
 let contacts = document.getElementById("contacts");
 let product = document.getElementById("products");
 
-books.addEventListener("click", function(){
-    books.style.color="red";
-    reviews.style.color="black";
-    contacts.style.color="black";
-    products.style.color="black";
-
-})
-
-reviews.addEventListener("click", function(){
-    books.style.color="black";
-    reviews.style.color="red";
-    contacts.style.color="black";
-    products.style.color="black";
-
-})
-
-products.addEventListener("click", function(){
-    books.style.color="black";
-    reviews.style.color="black";
-    contacts.style.color="black";
-    products.style.color="red";
-
-})
-
-
-contacts.addEventListener("click", function(){
-    books.style.color="black";
-    reviews.style.color="black";
-    contacts.style.color="red";
-    products.style.color="black";
-
-})
 
 let login = document.getElementById("login");
 
