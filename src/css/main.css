@@ -1,22 +1,23 @@
 *,
 ::before,
 ::after {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-  -webkit-tap-highlight-color: transparent 
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    -webkit-tap-highlight-color: transparent
 }
 
 body {
-  font-family: 'Fraunces', serif;
-  user-select: none;
+    background-image: linear-gradient(to right, rgb(235, 108, 108), rgb(73, 192, 73));
+    font-family: 'Fraunces', serif;
+    padding: 25px;
+    user-select: none;
 
 }
+
 main {
-  background-image: linear-gradient(to right, rgb(235, 108, 108), rgb(73, 192, 73));
-  font-family: 'Fraunces', serif;
-  padding: 1rem;
-  margin: auto;
+    font-family: 'Fraunces', serif;
+    margin: auto;
 }
 
 /* .product-form {
