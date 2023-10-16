@@ -70,6 +70,13 @@ git push -u origin HEAD
 
 The core team is monitoring for Pull Requests. We will review your Pull Request and either merge it, request changes to it, or close it with an explanation.
 
+### These are some contributors that helped us , we really appreciate your efforts : 
+[//]: contributor-faces
+<a href="https://github.com/salstein"><img src="salestin.jpeg" alt="Salako Oluwaseun" title="Salako Oluwaseun" width="50" height="50"></a>
+<a href="https://github.com/Adelabuadeleke"><img src="Adelabu Kamal.jpeg" alt="Adelabu Kamal" title="Adelabu Kamal" width="50" height="50"></a>
+<a href="https://github.com/AjiPraise"><img src="AjiPraise.png" alt="AjiPraise" title="Adelabu Kamal" width="50" height="50"></a>
+<a href="https://github.com/himanchal08"><img src="himanchal.png" alt="Himanchal" title="Himanchal" width="50" height="50"></a>
+[//]: contributor-faces
 ### How to increase the chance of being accepted?
 
 Continuous Integration (CI) runs a series of checks automatically when a Pull Request is opened. If you're
