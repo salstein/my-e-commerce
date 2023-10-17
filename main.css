@@ -12,9 +12,10 @@ body{
   font-size: 19px;
 }
 nav{
-   position: fixed;
-   margin-top: -91px;
-   width: 100%;
+  z-index: 1000;
+  position: fixed;
+  margin-top: -91px;
+  width: 100%;
   display: flex;
   justify-content: space-between;
   background-color: #fff;
@@ -32,10 +33,10 @@ nav button{
   width: 80px;
   height: 30px; 
   background-color: rgb(202, 15, 15);
-  color: #EE9CA7;
+  color: #fff;
   font-size: 17px;
   border: none;
-  border-radius: 2px;
+  border-radius: 5px;
   cursor: pointer;
   margin-right: 32px;
 
@@ -129,7 +130,7 @@ ul a:hover{
   background-color: rgb(196, 13, 13);
   color: white;
   font-size: 22px;
-  border-radius: 2px;
+  border-radius: 7px;
   margin-top: 26px;
   border: none;
 }
@@ -138,8 +139,8 @@ ul a:hover{
   border: 3px solid red;
   color: black;
   cursor: pointer;
-  transition: 0.7s ease;
-  font-size: 26px;
+  transform: scale(1.1);
+  -webkit-transition-duration: 0.4s;
 }
 .shop{
   display: flex;
@@ -186,6 +187,13 @@ ul a:hover{
   border-radius: 13px;
   margin-left: 73px;
   position: absolute;
+}
+.cardText button:hover{
+  color: black;
+  border: 2px solid red;
+  background-color: #fff;
+  transform: scale(1.2);
+  -webkit-transition-duration: 0.4s;
 }
 .cardText h3{
   margin-top: 9px;
@@ -243,7 +251,7 @@ top: 22px;
   border: none;
   outline: none;
   text-decoration: none;
-
+  border-radius: 7px;
 }
 .trendText a:hover{
   background-color: #fff;
@@ -280,17 +288,22 @@ top: 22px;
   border: 3px solid rgb(0, 105, 105);
   width: 600px;
   padding: 33px;
-  margin-left: 23%;
+  border-radius: 8px;
+  left: 0; 
+  margin-left: 30%;
 }
-.contactUs input{
+.contactUs #name{
   width: 400px;
-  height: 12px;
+  height: 37px;
   outline: none;
   padding: 11px;
   margin-top: 22px;
   border: 2px solid rgb(3, 109, 109);
   font-size: 18px;
+  text-align: center;
+  border-radius: 8px;
 }
+
 .contactUs button{
   margin-top: 22px;
   width: 120px;
@@ -300,12 +313,15 @@ top: 22px;
   font-size: 22px;
   border: none;
   outline: none;
+  border-radius: 8px;
 }
 .contactUs button:hover{
   border: 2px solid rgb(3, 161, 161);
   background-color: transparent;
   color: black;
   cursor: pointer;
+  transform: scale(1.1);
+  -webkit-transition-duration: 0.4s; 
 }
 
 
