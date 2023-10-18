@@ -14,7 +14,7 @@ body{
 nav ul #homes{
   color: rgb(218, 9, 9);
 }
-nav button{
+.btn-login{
   width: 80px;
   height: 30px; 
   background-color: rgb(202, 15, 15);
