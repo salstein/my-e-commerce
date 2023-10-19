@@ -11,25 +11,10 @@ body{
   margin-left: 9px;
   font-size: 19px;
 }
-nav{
-  z-index: 1000;
-  position: fixed;
-  margin-top: -91px;
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-  background-color: #fff;
-  padding: 20px;
-  box-shadow: 0px 4px 4px 0px rgb(167, 167, 167);
-}
-ul {
-  display: flex;
-  margin-right: 11px;
-}
 nav ul #homes{
   color: rgb(218, 9, 9);
 }
-nav button{
+.btn-login{
   width: 80px;
   height: 30px; 
   background-color: rgb(202, 15, 15);
@@ -286,18 +271,12 @@ top: 22px;
 .contactUs{
   text-align: center;
   border: 3px solid rgb(0, 105, 105);
-  width: 600px;
   padding: 33px;
   border-radius: 8px;
-  left: 0; 
-  margin-left: 30%;
 }
 .contactUs #name{
-  width: 400px;
-  height: 37px;
   outline: none;
   padding: 11px;
-  margin-top: 22px;
   border: 2px solid rgb(3, 109, 109);
   font-size: 18px;
   text-align: center;
@@ -305,9 +284,6 @@ top: 22px;
 }
 
 .contactUs button{
-  margin-top: 22px;
-  width: 120px;
-  height: 38px;
   background-color:rgb(3, 134, 134);
   color: white;
   font-size: 22px;
@@ -329,7 +305,6 @@ top: 22px;
   display: flex;
   justify-content: space-around;
   background-color: rgb(1, 85, 85);
-  padding: 63px;
  margin-top: 33px;
    
 }
@@ -338,5 +313,4 @@ top: 22px;
 }
 .text p{
   color: #fff;
-  margin-top: 7px;
 }
