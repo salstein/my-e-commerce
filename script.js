@@ -29,5 +29,6 @@ submit.addEventListener("click", function () {
     }
     else {
         alert("Thanks for connecting");
+    
     }
 });

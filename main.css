@@ -159,6 +159,7 @@ ul a:hover{
 .cardText{
   font-size: 19px;
   margin-top:  11px;
+
   
 }
 .cardText button{
@@ -314,3 +315,15 @@ top: 22px;
 .text p{
   color: #fff;
 }
+
+.start-img{
+
+  margin-top:50px;
+}
+
+.img-fluid{
+
+  cursor: pointer;
+}
+
+
