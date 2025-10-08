@@ -5,25 +5,25 @@ let contacts = document.getElementById("contacts");
 let product = document.getElementById("products");
 let login = document.getElementById("login");
 let loginPage = document.querySelector(".loginPage");
+let logout = document.getElementById("logout"); // Add this button in your HTML
 
-// Show login page
-login.addEventListener("click", function () {
-  loginPage.style.display = "block";
-});
-
-// Validate email format
+// --- Validation Helpers ---
 function isValidEmail(email) {
   const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
   return emailRegex.test(email);
 }
 
-// Validate password strength (min 6 chars, one number, one uppercase)
 function isValidPassword(password) {
   const passRegex = /^(?=.*[A-Z])(?=.*\d).{6,}$/;
   return passRegex.test(password);
 }
 
-// LOGIN FORM
+// --- Show Login Page ---
+login.addEventListener("click", function () {
+  loginPage.style.display = "block";
+});
+
+// --- LOGIN FUNCTIONALITY ---
 let loged = document.getElementById("loged");
 loged.addEventListener("click", function () {
   let email = document.getElementById("email");
@@ -44,11 +44,15 @@ loged.addEventListener("click", function () {
     return;
   }
 
+  // Store login data (for demo; do NOT store real passwords this way)
+  localStorage.setItem("userEmail", email.value);
   alert("You are logged in!");
+
   loginPage.style.display = "none";
+  updateLoginState();
 });
 
-// CONTACT FORM
+// --- CONTACT FORM ---
 let submit = document.getElementById("submit");
 submit.addEventListener("click", function () {
   let nameField = document.getElementById("name");
@@ -71,3 +75,27 @@ submit.addEventListener("click", function () {
 
   alert("Thanks for connecting!");
 });
+
+// --- LOGOUT FUNCTIONALITY ---
+logout.addEventListener("click", function () {
+  localStorage.removeItem("userEmail");
+  alert("You have been logged out!");
+  updateLoginState();
+});
+
+// --- AUTO LOGIN STATE CHECK ---
+function updateLoginState() {
+  const userEmail = localStorage.getItem("userEmail");
+
+  if (userEmail) {
+    login.style.display = "none";
+    logout.style.display = "inline-block";
+    console.log(`Logged in as: ${userEmail}`);
+  } else {
+    login.style.display = "inline-block";
+    logout.style.display = "none";
+  }
+}
+
+// --- Initialize State on Page Load ---
+window.addEventListener("DOMContentLoaded", updateLoginState);
