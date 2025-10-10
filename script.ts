@@ -35,3 +35,24 @@ submit.addEventListener("click", function () {
     alert("Thanks for connecting");
   }
 });
+
+let review = document.getElementById("review") as HTMLElement;
+review.addEventListener("click", function () {
+  reviews.style.display = "block";
+  contacts.style.display = "none";
+  product.style.display = "none";
+});
+
+let contact = document.getElementById("contact") as HTMLElement;
+contact.addEventListener("click", function () {
+  reviews.style.display = "none";
+  contacts.style.display = "block";
+  product.style.display = "none";
+});
+
+let prod = document.getElementById("prod") as HTMLElement;
+prod.addEventListener("click", function () {
+  reviews.style.display = "none";
+  contacts.style.display = "none";
+  product.style.display = "block";
+});
