@@ -4,9 +4,9 @@ Welcome to **My E-Commerce Bookstore**! Our e-commerce website is dedicated to b
 
 ---
 
-# CodingPractice-Hacktoberfest23
+# CodingPractice-Hacktoberfest25
 
-This repository is entirely dedicated to Hacktober Fest 2023. Feel free to use it for your contributions. Topics: hacktoberfest, hacktoberfest-accepted, hacktoberfest2023
+This repository is entirely dedicated to Hacktober Fest 2025. Feel free to use it for your contributions. Topics: hacktoberfest, hacktoberfest-accepted, hacktoberfest2025
 
 <p align="center">
     <a href="https://hacktoberfest.com/" target="_blank">
@@ -14,9 +14,9 @@ This repository is entirely dedicated to Hacktober Fest 2023. Feel free to use i
     </a>
 </p>
 
-## HacktoberFest23
+## HacktoberFest25
 
-Hello Hackers! HacktoberFest has begun again for the year 2023, and everyone's excited to get started!
+Hello Hackers! HacktoberFest has begun again for the year 2025, and everyone's excited to get started!
 
 **Contribute between: 1 OCTOBER - 31 OCTOBER**
 
@@ -99,7 +99,7 @@ If you have any questions or encounter issues during this process, feel free to 
 
 ---
 
-This is the README file for **My E-Commerce Bookstore** and **CodingPractice-Hacktoberfest23**. We appreciate your contributions and look forward to working with you.
+This is the README file for **My E-Commerce Bookstore** and **CodingPractice-Hacktoberfest25**. We appreciate your contributions and look forward to working with you.
 
 Happy contributing!
 
