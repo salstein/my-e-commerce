@@ -99,3 +99,16 @@ function updateLoginState() {
 
 // --- Initialize State on Page Load ---
 window.addEventListener("DOMContentLoaded", updateLoginState);
+
+// --- NAVIGATION ---
+reviews.addEventListener("click", function () {
+  window.location.href = "reviews.html";
+});
+
+contacts.addEventListener("click", function () {
+  window.location.href = "contact.html";
+});
+
+product.addEventListener("click", function () {
+  window.location.href = "products.html";
+});
