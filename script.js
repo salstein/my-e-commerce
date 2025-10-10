@@ -112,3 +112,8 @@ contacts.addEventListener("click", function () {
 product.addEventListener("click", function () {
   window.location.href = "products.html";
 });
+
+
+
+// --- IGNORE ---
+// End of script.js
