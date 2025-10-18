@@ -128,6 +128,14 @@ body.dark-mode #backToTopBtn:hover {
   color: #fff;
 }
 
+body.dark-mode .product-card .price {
+  color: #00e6b8;
+}
+
+/* Optional - make title clearly readable */
+body.dark-mode .product-card h3 {
+  color: #fff;
+}
 
 
 
