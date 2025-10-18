@@ -6,7 +6,55 @@ body{
   background-color: #EE9CA7 → #FFDDE1;
   font-family: 'Roboto', sans-serif;
   overflow-x: hidden;
+
+    color: #222;
+  transition: background-color 0.3s, color 0.3s;
 }
+
+
+
+
+
+.theme-btn {
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+  margin-left: 1rem;
+}
+
+/* Dark Mode Styles */
+body.dark-mode {
+  background-color: #121212;
+  color: #eaeaea;
+}
+
+/* Adjust other elements for dark mode */
+.navbar,
+header {
+  background-color: #ffffff;
+  transition: background-color 0.3s;
+}
+
+body.dark-mode .navbar,
+body.dark-mode header {
+  background-color: #1e1e1e;
+}
+
+body.dark-mode a {
+  color: #00bcd4;
+}
+
+body.dark-mode .theme-btn {
+  color: #fff;
+}
+
+
+
+
+
+
+
 .logo{
   margin-left: 9px;
   font-size: 19px;

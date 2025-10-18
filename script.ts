@@ -56,3 +56,5 @@ prod.addEventListener("click", function () {
   contacts.style.display = "none";
   product.style.display = "block";
 });
+
+
